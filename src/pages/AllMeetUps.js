@@ -26,10 +26,9 @@ function AllMeetUpspage() {
   return (
     <section>
       <h1>All Meet Ups </h1>
-   
       <MeetupList meetups={DUMMY_DATA} />
     </section>
-  )
+  );
 }
 
-export default AllMeetUpspage
+export default AllMeetUpspage;
